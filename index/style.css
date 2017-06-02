@@ -1,0 +1,88 @@
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+
+* {
+  font-family: AvenirNextLTPro-Regular;
+}
+/* Splash page */
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+}
+
+.albums {
+  margin: 8% auto;
+  width: 50%;
+  height: 70%;
+}
+.album_item{
+  width: 200px;
+  margin: 10px auto 0px auto;
+}
+.album_img{
+  width: 100%;
+}
+
+.filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#tracks {
+  width: 50vw;
+  height: 100vh;
+  float: right;
+}
+
+#headerino {
+  height: 5%;
+  background-color: rgb(137, 138, 122);
+  border-bottom: 2px solid black;
+}
+
+#footerino {
+  height: auto;
+  color: white;
+  background-color: rgb(85, 85, 71);
+  bottom: 0px;
+  position: fixed;
+  width: 100vw;
+}
+
+#footerino h2 {
+  padding-top: .5%;
+  margin-left: 5%;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+#right_side {
+  padding: 0;
+  height: 100vh;
+}
+
+.thing {
+  color: purple;
+  padding-top: 30%;
+  width: 50%;
+  margin: auto;
+}
+
+.thing input {
+  width: 50%;
+  height: 15%;
+  color: white;
+  background-color: rgb(40, 40, 28);
+}
+
+#left_side {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
