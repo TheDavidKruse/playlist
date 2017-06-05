@@ -18,7 +18,7 @@ var int = [];
 // }, 0 );
 int.forEach( function( f ) {
 
-  $( ".albums" ).append( `
+  $( ".dickshoe Mcgees" ).append( `
       <div class="album_item">
         <img class='album_img' src="../images/${f.cover_art}">
       </div>

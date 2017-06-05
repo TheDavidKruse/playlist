@@ -40,6 +40,7 @@ white-space: nowrap;
   width:80%;
   background-color: rgb(234,234,234);
   border: 2px solid black;
+  overflow-y: scroll;
 }
 #button_div{
   margin-left:10%;
